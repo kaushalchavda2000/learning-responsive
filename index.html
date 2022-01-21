@@ -14,23 +14,35 @@
     <div class="header">
       <div class="nav-logo">
         <div class="logo">
-          <img src="/images/navbar-logo.svg" alt="website logo" />
+          <img src="images/navbar-logo.svg" alt="website logo" />
         </div>
         <div class="nav">
-          <ul>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">TEAM</a></li>
-            <li><a href="#">CONTACT</a></li>
+          <div class="menu-button" onclick="myFunction(this);">
+            <div class="menu-text">MENU</div>
+            <div class="ham-burger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </div>
+          <ul id="navigation-list">
+            <li><a href="#service-id">SERVICES</a></li>
+            <li><a href="#portfolio-id">PORTFOLIO</a></li>
+            <li><a href="#about-id">ABOUT</a></li>
+            <li><a href="#team-id">TEAM</a></li>
+            <li><a href="#contact-id">CONTACT</a></li>
           </ul>
         </div>
       </div>
       <div class="small-heading">
-        <h2>Welcome To Our Studio!</h2>
+        <div>
+          <h2>Welcome To Our Studio!</h2>
+        </div>
       </div>
       <div class="header-heading">
-        <h1>IT'S NICE TO MEET YOU</h1>
+        <div>
+          <h1>IT'S NICE TO MEET YOU</h1>
+        </div>
       </div>
       <div class="btn">
         <button>TELL ME MORE</button>
@@ -38,7 +50,7 @@
     </div>
   </header>
   <section>
-    <div class="services">
+    <div class="services" id="service-id">
       <div class="heading">
         <div class="main-heading">SERVICES</div>
         <div class="main-paragraph">Lorem ipsum dolor sit amet consectetur.</div>
@@ -46,7 +58,7 @@
       <div class="boxes">
         <div class="box">
           <div class="icon">
-            <img src="/images/cart.png" alt="e-commerce cart logo">
+            <img src="images/cart.png" alt="e-commerce cart logo">
           </div>
           <div class="title">E-Commerce</div>
           <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit possimus
@@ -54,7 +66,7 @@
         </div>
         <div class="box" id="middle-div">
           <div class="icon">
-            <img src="/images/laptop.png" alt="computer logo">
+            <img src="images/laptop.png" alt="computer logo">
           </div>
           <div class="title">Responsive Design</div>
           <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit possimus
@@ -62,7 +74,7 @@
         </div>
         <div class="box">
           <div class="icon">
-            <img src="/images/lock.png" alt="security logo">
+            <img src="images/lock.png" alt="security logo">
           </div>
           <div class="title">Web Security</div>
           <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit possimus
@@ -72,7 +84,7 @@
     </div>
   </section>
   <section>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio-id">
       <div class="heading">
         <div class="main-heading">PORTFOLIO</div>
         <div class="main-paragraph">Lorem ipsum dolor sit amet consectetur.</div>
@@ -80,7 +92,7 @@
       <div class="cards">
         <div class="card">
           <div class="picture">
-            <img src="/images/port-1.jpg" alt="Digital watch picture">
+            <img src="images/port-1.jpg" alt="Digital watch picture">
           </div>
           <div class="center">
             <div class="title card-title">Threads</div>
@@ -89,7 +101,7 @@
         </div>
         <div class="card">
           <div class="picture">
-            <img src="/images/port-2.jpg" alt="Shoes picture">
+            <img src="images/port-2.jpg" alt="Shoes picture">
           </div>
           <div class="center">
             <div class="title card-title">Explore</div>
@@ -98,7 +110,7 @@
         </div>
         <div class="card">
           <div class="picture">
-            <img src="/images/port-3.jpg" alt="alphabet T picture">
+            <img src="images/port-3.jpg" alt="alphabet T picture">
           </div>
           <div class="center">
             <div class="title card-title">Finish</div>
@@ -107,7 +119,7 @@
         </div>
         <div class="card">
           <div class="picture">
-            <img src="/images/port-4.jpg" alt="coca-cola picture">
+            <img src="images/port-4.jpg" alt="coca-cola picture">
           </div>
           <div class="center">
             <div class="title card-title">Lines</div>
@@ -116,7 +128,7 @@
         </div>
         <div class="card">
           <div class="picture">
-            <img src="/images/port-5.jpg" alt="laptop picture">
+            <img src="images/port-5.jpg" alt="laptop picture">
           </div>
           <div class="center">
             <div class="title card-title">Southwest</div>
@@ -125,7 +137,7 @@
         </div>
         <div class="card">
           <div class="picture">
-            <img src="/images/port-6.jpg" alt="alcohol bottle picture">
+            <img src="images/port-6.jpg" alt="alcohol bottle picture">
           </div>
           <div class="center">
             <div class="title card-title">Window</div>
@@ -136,13 +148,13 @@
     </div>
   </section>
   <section>
-    <div class="about">
+    <div class="about" id="about-id">
       <div class="heading">
         <div class="main-heading">ABOUT</div>
         <div class="main-paragraph">Lorem ipsum dolor sit amet consectetur.</div>
       </div>
       <div class="flow-diagram">
-        <div class="flow-box">
+        <div class="flow-box direction-change">
           <div class="details odd">
             <h2>2009-2011</h2>
             <h2>Our Humble Beginnings</h2>
@@ -151,7 +163,7 @@
               excepturi ea voluptates soluta quos.</p>
           </div>
           <div class="flow-image">
-            <img src="/images/about-1.jpg" alt="office picture">
+            <img src="images/about-1.jpg" alt="office picture">
             <div class="line"></div>
           </div>
           <div class="empty"></div>
@@ -159,7 +171,7 @@
         <div class="flow-box">
           <div class="empty"></div>
           <div class="flow-image">
-            <img src="/images/about-2.jpg" alt="office picture">
+            <img src="images/about-2.jpg" alt="office picture">
             <div class="line"></div>
           </div>
           <div class="details even">
@@ -170,7 +182,7 @@
               excepturi ea voluptates soluta quos.</p>
           </div>
         </div>
-        <div class="flow-box">
+        <div class="flow-box direction-change">
           <div class="details odd">
             <h2>December 2015</h2>
             <h2>Transition to Full Service</h2>
@@ -179,7 +191,7 @@
               excepturi ea voluptates soluta quos.</p>
           </div>
           <div class="flow-image">
-            <img src="/images/about-3.jpg" alt="office picture">
+            <img src="images/about-3.jpg" alt="office picture">
             <div class="line"></div>
           </div>
           <div class="empty"></div>
@@ -187,7 +199,7 @@
         <div class="flow-box">
           <div class="empty"></div>
           <div class="flow-image">
-            <img src="/images/about-4.jpg" alt="office picture">
+            <img src="images/about-4.jpg" alt="office picture">
             <div class="line"></div>
           </div>
           <div class="details even">
@@ -198,9 +210,9 @@
               excepturi ea voluptates soluta quos.</p>
           </div>
         </div>
-        <div class="flow-box">
+        <div class="flow-box last-box">
           <div class="empty"></div>
-          <div class="flow-image">
+          <div class="flow-image last-flow-image">
             <div class="last-part">
               <p>Be Part Of Our Story!</p>
             </div>
@@ -211,7 +223,7 @@
     </div>
   </section>
   <section>
-    <div class="team-details">
+    <div class="team-details" id="team-id">
       <div class="heading">
         <div class="main-heading">OUR AMAZING TEAM</div>
         <div class="main-paragraph">Lorem ipsum dolor sit amet consectetur.</div>
@@ -219,38 +231,38 @@
       <div class="team-boxes">
         <div class="team-box">
           <div class="team-icon">
-            <img src="/images/team-1.jpg" alt="man picture">
+            <img src="images/team-1.jpg" alt="man picture">
           </div>
           <div class="team-title">Parveen anand</div>
           <div class="team-description">Lead Designer</div>
           <div class="social-media">
-            <div class="social-media-icons"><img src="/images/twitter.png" alt="twitter logo"></div>
-            <div class="social-media-icons"><img src="/images/facebook.png" alt="facebook logo"></div>
-            <div class="social-media-icons"><img src="/images/linkedin.png" alt="linkedin logo"></div>
+            <div class="social-media-icons"><img src="images/twitter.png" alt="twitter logo"></div>
+            <div class="social-media-icons"><img src="images/facebook.png" alt="facebook logo"></div>
+            <div class="social-media-icons"><img src="images/linkedin.png" alt="linkedin logo"></div>
           </div>
         </div>
         <div class="team-box" id="middle-div">
           <div class="team-icon">
-            <img src="/images/team-2.jpg" alt="women picture">
+            <img src="images/team-2.jpg" alt="women picture">
           </div>
           <div class="team-title">Diana petersen</div>
           <div class="team-description">Lead Marketer</div>
           <div class="social-media">
-            <div class="social-media-icons"><img src="/images/twitter.png" alt="twitter logo"></div>
-            <div class="social-media-icons"><img src="/images/facebook.png" alt="facebook logo"></div>
-            <div class="social-media-icons"><img src="/images/linkedin.png" alt="linkedin logo"></div>
+            <div class="social-media-icons"><img src="images/twitter.png" alt="twitter logo"></div>
+            <div class="social-media-icons"><img src="images/facebook.png" alt="facebook logo"></div>
+            <div class="social-media-icons"><img src="images/linkedin.png" alt="linkedin logo"></div>
           </div>
         </div>
         <div class="team-box">
           <div class="team-icon">
-            <img src="/images/team-3.jpg" alt="man picture">
+            <img src="images/team-3.jpg" alt="man picture">
           </div>
           <div class="team-title">Larry parker</div>
           <div class="team-description">Lead Developer</div>
           <div class="social-media">
-            <div class="social-media-icons"><img src="/images/twitter.png" alt="twitter logo"></div>
-            <div class="social-media-icons"><img src="/images/facebook.png" alt="facebook logo"></div>
-            <div class="social-media-icons"><img src="/images/linkedin.png" alt="linkedin logo"></div>
+            <div class="social-media-icons"><img src="images/twitter.png" alt="twitter logo"></div>
+            <div class="social-media-icons"><img src="images/facebook.png" alt="facebook logo"></div>
+            <div class="social-media-icons"><img src="images/linkedin.png" alt="linkedin logo"></div>
           </div>
         </div>
       </div>
@@ -263,15 +275,15 @@
   <section>
     <div class="social-media-logos">
       <div class="logo-container">
-        <img src="/images/microsoft.svg" alt="microsoft logo">
-        <img src="/images/google.svg" alt="google logo">
-        <img src="/images/facebook.svg" alt="facebook logo">
-        <img src="/images/ibm.svg" alt="ibm logo">
+        <img src="images/microsoft.svg" alt="microsoft logo">
+        <img src="images/google.svg" alt="google logo">
+        <img src="images/facebook.svg" alt="facebook logo">
+        <img src="images/ibm.svg" alt="ibm logo">
       </div>
     </div>
   </section>
   <section>
-    <div class="contact-us">
+    <div class="contact-us" id="contact-id">
       <div class="heading">
         <div class="main-heading" id="contact-main-heading">CONTACT US</div>
         <div class="main-paragraph">Lorem ipsum dolor sit amet consectetur.</div>
@@ -291,6 +303,27 @@
       </div>
     </div>
   </section>
+  <footer>
+    <div class="footer">
+      <div class="footer-section">
+        <div class="copyright-text">Copyright &#169; Your Website 2021</div>
+        <div class="mid-div">
+          <div class="social-media">
+            <div class="social-media-icons"><img src="images/twitter.png" alt="twitter logo"></div>
+            <div class="social-media-icons"><img src="images/facebook.png" alt="facebook logo"></div>
+            <div class="social-media-icons"><img src="images/linkedin.png" alt="linkedin logo"></div>
+          </div>
+        </div>
+        <div class="policy">
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/javascript/app.js"></script>
 </body>
 
 </html>
