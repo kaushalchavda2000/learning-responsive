@@ -476,7 +476,7 @@ button{
   flex-direction: column;
   align-items: center;
   background-color:rgb(33, 34, 34);
-  background-image: url("images/map-image.png");
+  background-image: url("../images/map-image.png");
   background-size:auto;
   background-repeat: no-repeat;
   background-position: center;
